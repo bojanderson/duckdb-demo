@@ -1,0 +1,9 @@
+name: duckdb-demo
+dependencies:
+  - python=3.9.7
+  - duckdb
+  - pandas
+  - ipykernel
+  - SQLAlchemy
+  - duckdb-engine
+  - ipython-sql
