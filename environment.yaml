@@ -4,9 +4,14 @@ channels:
   - defaults
 dependencies:
   - python=3.9.7
-  - duckdb
+  - openpyxl
   - pandas
   - ipykernel
   - SQLAlchemy
-  - duckdb-engine
   - ipython-sql
+  - pip
+  - black
+  - flake8
+  - pip:
+    - duckdb
+    - duckdb-engine
