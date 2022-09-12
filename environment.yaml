@@ -12,6 +12,7 @@ dependencies:
   - pip
   - black
   - flake8
+  - pyarrow
   - pip:
     - duckdb
     - duckdb-engine
